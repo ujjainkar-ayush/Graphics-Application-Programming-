@@ -5,7 +5,7 @@
 
 ---
 
-## 11. 2D Translation Transformation
+## 11.	Write a program to implement 2D Translation Transformation.
 
 ```c
 #include <graphics.h>
@@ -41,7 +41,7 @@ int main() {
 
 ---
 
-## 12. 3D Translation Transformation
+## 12.	Write a program to implement 3D Translation Transformation.
 
 ```c
 #include <graphics.h>
@@ -93,7 +93,7 @@ int main() {
 
 ---
 
-## 13. Move an Image (Ball) on Screen
+## 13.	Write a program to move an image (ball) on the screen.
 
 ```c
 #include <graphics.h>
@@ -132,7 +132,7 @@ int main() {
 
 ---
 
-## 14. Cubic Bezier Curve
+## 14.	Write a program to generate a Cubic Bezier Curve.
 
 ```c
 #include <graphics.h>
@@ -176,7 +176,7 @@ int main() {
 
 ---
 
-## 15. Polygon using Absolute and Relative Commands
+## 15.	Write a program to draw a Polygon using Absolute and Relative commands.
 
 ```c
 #include <graphics.h>
@@ -218,7 +218,7 @@ int main() {
 
 ---
 
-## 16. Clip User-Defined Area of Screen
+## 16.	Write a program to clip user defined area of a screen.
 
 ```c
 #include <graphics.h>
@@ -262,7 +262,7 @@ int main() {
 
 ---
 
-## 17. Line Clipping (Cohen-Sutherland)
+## 17.	Write a program to clip line segment.
 
 ```c
 #include <graphics.h>
@@ -332,7 +332,7 @@ int main() {
 
 ---
 
-## 18. Polygon Clipping (Sutherland-Hodgman)
+## 18.	Write a program to clip polygon.
 
 ```c
 #include <graphics.h>
@@ -405,7 +405,7 @@ int main() {
 
 ---
 
-## 19. Rotation of a Point
+## 19.	Write a program to demonstrate rotation of point.
 
 ```c
 #include <graphics.h>
@@ -455,7 +455,7 @@ int main() {
 
 ---
 
-## 20. Fill Area by Given Pattern
+## 20.	Write a program to fill area by given pattern.
 
 ```c
 #include <graphics.h>
@@ -490,7 +490,7 @@ int main() {
 
 ---
 
-## 21. Flood Fill Algorithm
+## 21.	Write a program to fill the closed area using flood fill method.
 
 ```c
 #include <graphics.h>
@@ -532,7 +532,7 @@ int main() {
 
 ---
 
-## 22. Scan Line Fill Algorithm
+## 22.	Write a program to fill the closed area using Scan line method.
 
 ```c
 #include <graphics.h>
@@ -588,22 +588,3 @@ int main() {
     return 0;
 }
 ```
-
----
-
-## Quick Reference Table
-
-| # | Topic | Key Function / Algorithm |
-|---|-------|--------------------------|
-| 11 | 2D Translation | `x' = x + tx, y' = y + ty` |
-| 12 | 3D Translation | Parallel projection + offset |
-| 13 | Ball Animation | `cleardevice` + redraw loop |
-| 14 | Bezier Curve | Cubic Bernstein polynomials |
-| 15 | Polygon Drawing | `drawpoly()` / relative offsets |
-| 16 | Screen Clipping | `setviewport()` |
-| 17 | Line Clipping | Cohen-Sutherland |
-| 18 | Polygon Clipping | Sutherland-Hodgman |
-| 19 | Point Rotation | Rotation matrix formula |
-| 20 | Pattern Fill | `setfillpattern()` |
-| 21 | Flood Fill | 4-connected recursive fill |
-| 22 | Scan Line Fill | Edge-intersection sorting |
